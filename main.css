@@ -271,14 +271,14 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(IFEcover2.jpg) no-repeat center top;
+	background: url(assets/C1.jpg) no-repeat center top;
     background-size:contain;
 	margin-top: -50px;
 	padding-top: 120px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
+	min-height: 1100px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
