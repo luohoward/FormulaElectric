@@ -25,7 +25,7 @@
     
     <script src="jquery.min.js"></script>
 	<script type="text/javascript" src="modernizr.custom.js"></script>
-    
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="assets/js/html5shiv.js"></script>
@@ -40,38 +40,24 @@
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-      <!--
-      	<div class="navbar-header">
-          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-            	<span src = "das-icon_1443.png" style="font-size:30px; color:#3498db;"></span>
-          	</button>
-          	<a class="navbar-brand hidden-xs hidden-sm" href="#home"><span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span></a>
-          	<span class = "navbar-brand">
-          		<span class = "dropdown-menu-logo">
-          			<img src = "das-icon_1443.png" height = 25 width = 25>
-          		</span>
-          	</span>
-        </div>
-        -->
         <div class="navbar-header">
-          	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            	<!--<span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>-->
-            	<span class="icon icon-shield" src = "das-icon_1443.png" style="font-size:30px; color:#3498db;"></span>
+          	<button id='home_btn' type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <img src = "das-icon_1443.png" height = 25 width = 25>
           	</button>
-          	<a class="navbar-brand hidden-xs hidden-sm" href="#home">
-          		<!--<span class="icon icon-shield" style="font-size:18px; color:#3498db;"></span>-->
-          		<span class="icon icon-shield" src = "das-icon_1443.png" style="font-size:30px; color:#3498db;"></span>
+ 
+           	<a class="navbar-brand hidden-xs hidden-sm smoothScroll" href="#home">
+           	    <span class="icon clearfix"><img src = "das-icon_1443_1.png" height = 25 width = 25></span>
           	</a>
         </div>
 
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home" class="smoothScroll">Home</a></li>
-			<li> <a href="#the_car" class="smoothScroll"> The Car</a></li>
-			<li> <a href="#history" class="smoothScroll"> History</a></li>
-			<li> <a href="#team" class="smoothScroll"> Team</a></li>
-			<li> <a href="#sponsorship" class="smoothScroll"> Sponsorship</a></li>
-			<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+            <li><a href="#home" class="smoothScroll" onclick = "hide_dropdown();">Home</a></li>
+			<li> <a href="#the_car" class="smoothScroll" onclick = "hide_dropdown();"> The Car</a></li>
+			<li> <a href="#history" class="smoothScroll" onclick = "hide_dropdown();"> History</a></li>
+			<li> <a href="#team" class="smoothScroll" onclick = "hide_dropdown();"> Team</a></li>
+			<li> <a href="#sponsorship" class="smoothScroll" onclick = "hide_dropdown();"> Sponsorship</a></li>
+			<li> <a href="#contact" class="smoothScroll" onclick = "hide_dropdown();"> Contact</a></li>
 			</ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -86,7 +72,7 @@
 	  		 		<br>
 	  		 		<br>
 	  		 		<br>
-	  		 		<h1><span class="icon"><img src = "das-icon_1443.png"></span></h1>
+	  		 		<h1><img src = "das-icon_1443.png"></h1>
 	  		 		<p><big><big><big>Illini</big></big></big></p>
 	  		 		<p><big><big><big>Formula Electric</big></big></big></p>
 	  		</header>	    
