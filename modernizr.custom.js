@@ -5,7 +5,7 @@
 
 
 function hide_dropdown() {
+    var btnCtrl = document.getElementById('home_btn');
 
-        document.getElementById('home_btn').click();
-
+    if (btnCtrl.offsetWidth > 0 && btnCtrl.offsetHeight > 0) btnCtrl.click();
  };
